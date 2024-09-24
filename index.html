@@ -6,7 +6,7 @@
 
 <html lang="en">
 <head>
-	<title>SpringGrasp: Synthesizing Compliant Dexterous Grasps under Shape Uncertainty</title>
+	<title>ARCap: Collecting High-quality Human Demonstrations for Robot Learning with Augmented Reality Feedback</title>
     <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/
         if you update and want to force Facebook to re-scrape. -->
 	<meta property="og:image" content="./resources/teaser.png"/>
@@ -33,7 +33,7 @@
 <body>
 <div class="container">
     <div class="title">
-        SpringGrasp: Synthesizing Compliant Dexterous Grasps under Shape Uncertainty
+        ARCap: Collecting High-quality Human Demonstrations for Robot Learning with Augmented Reality Feedback
     </div>
 
     <br>
@@ -43,12 +43,17 @@
         <a href="https://ericcsr.github.io/">Sirui Chen</a><sup>1</sup>
     </div>
     <div class="author">
-        <a href="https://web.stanford.edu/~bohg/">Jeannette Bohg</a><sup>1</sup>
+        <a href="https://web.stanford.edu/~bohg/">Chen Wang</a><sup>1</sup>
+    </div>
+    <div class="author">
+        <a href="">Kaden Nguyen</a><sup>1</sup>
+    </div>
+    <div class="author">
+        <a href="https://scholar.google.com/citations?user=rDfyQnIAAAAJ&hl=en">Li Fei-Fei</a><sup>1</sup>
     </div>
     <div class="author">
         <a href="https://tml.stanford.edu/people/karen-liu">C. Karen Liu</a><sup>1</sup>
     </div>
-
     <br>
     <br>
 
@@ -57,73 +62,73 @@
     <br>
     <br>
 
-    <div class="links"><a href="https://arxiv.org/abs/2404.13532">[Paper]</a></div>
-    <div class="links"><a href="https://github.com/Stanford-TML/SpringGrasp_release.git">[Code]</a></div>
+    <div class="links"><a href="">[Paper]</a></div>
+    <div class="links"><a href="https://github.com/Stanford-TML/ARCap_part1.git">[Code]</a></div>
 
     <br>
     <br>
-    <div class="teaser">
+    <!-- <div class="teaser">
         <img src="./resources/main.png" alt="Teaser figure."/>
         <br>
         <i>
             Planning grasp for different object with single depth image input.
         </i>
-    </div>
+    </div> -->
 
     <br><br>
     <hr>
 
-    <h1>Abstract</h1>
+    <!-- <h1>Abstract</h1>
     <p>
         Generating stable and robust grasps on generic objects is critical for dexterous robotic hands, marking a significant step towards advanced dexterous manipulation. Previous studies have mostly focused on improving differentiable grasping metrics with the assumption of precisely known object geometry. However, shape uncertainty is ubiquitous due to noisy and partial shape observations, which introduce challenges in grasp planning. We propose, SpringGrasp planner, a planner that considers uncertain observations of the object surface for synthesizing compliant dexterous grasps.A compliant dexterous grasp could minimize the effect of unexpected contact with the object, leading to more stable grasp with shape-uncertain objects. We introduce an analytical and differentiable metric, SpringGrasp metric, that evaluates the dynamic behavior of the entire compliant grasping process. Planning with SpringGrasp planner, our method achieves a grasp success rate of 89% from two viewpoints and 84%  from a single viewpoints in experiment with a real robot on 14 common objects. Compared with a force-closure based planner, our method achieves at least 18% higher grasp success rate.
-    </p>
+    </p> -->
 
     <br><br><hr>
 
-    <h1>Method</h1>
+    <!-- <h1>Method</h1>
 
     <div class="video-container">
         <iframe src="./resources/method.mp4" frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-    </div>
+    </div> -->
 
     <br><br><hr>
 
-    <h1>Grasping different objects</h1>
+    <!-- <h1>Grasping different objects</h1>
 
     <div class="video-container">
         <iframe src="./resources/allobjects.mp4" frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-    </div>
+    </div> -->
 
     <br><br><hr>
-    <h1>Grasping object at different pose</h1>
+    <!-- <h1>Grasping object at different pose</h1>
 
     <div class="video-container">
         <iframe src="./resources/differentpose.mp4" frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-    </div>
+    </div> -->
 
     <br><br><hr>
-    <h1>Compliant grasp resist perturbation</h1>
+    <!-- <h1>Compliant grasp resist perturbation</h1>
 
     <div class="video-container">
         <iframe src="./resources/perturb.mp4" frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-    </div>
+    </div> -->
 
     <br><br><hr>
-    <h1>Compared with force closure baseline</h1>
+    <!-- <h1>Compared with force closure baseline</h1>
 
     <div class="video-container">
         <iframe src="./resources/compare.mp4" frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-    </div>
+    </div> -->
 
     <br><br><hr>
 
